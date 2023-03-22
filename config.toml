@@ -1,3 +1,83 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl = "http://www.example.com"
+title = "Helep"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 10
+
+disqusShortname = "yourdiscussshortname"
+
+[markup]
+	[markup.highlight]
+		codeFences = true
+		style = "bw"
+		guessSyntax = false
+
+[params]
+  author = "Olivier Donfack "
+  info = "Welcome to my personal blog about DevOps | Cloud | Process automation and munch more"
+  description = "Olivier Donfack's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/odonfack.png"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "images/favicon-32x32.png"
+  favicon_16 = "images/favicon-16x16.png"
+
+  since = 2023
+
+  footercontent = "Tech, tips and stuff"
+  hidecredits = false
+  hidecopyright = false
+
+  rtl = false
+
+  math = true
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/odonfack/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "#"
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/olivier-donfack-40059a45/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "#"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
