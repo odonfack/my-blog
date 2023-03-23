@@ -6,6 +6,4 @@ draft: true
 ---
 # DevOps Consultant
 
-Olivier Donfacki
-
 Hello, I’mOlivier Donfack. A Senior DevOps Consultant, Solution Architect and Cloud Engineer. Working as a DevOps Consultant and Architect at CC.
