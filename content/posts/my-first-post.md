@@ -1,29 +1,34 @@
 ---
-title: "My First Post"
-date: 2023-03-21T11:56:25+03:00
+title: My First Post
+date: 2023-03-21T11:56:25.000+03:00
 categories:
 - Web development
 tags:
 - development
 - hugo
 - blogging
-featured_image: "images/avatar.jpg"
----
-This is a blog post about Markdown.
-<!--more-->
-## H2 heading
+featured_image: images/avatar.jpg
 
-This is normal text. *This text is italics* and **this one is bolded**.
+---
+This is my first blog post about DevOps
+
+<!--more-->
+
+## DevOps in Praxis
+
+This is normal text. _This text is italics_ and **this one is bolded**.
 
 Links can be added with this syntax: [link text](https://link.address)
 
-### Lists (H3 heading)
+### GitOps
 
 You can also include lists:
-- like
-- this
+
+* like
+* this
 
 The list items can be numbered:
+
 1. first item
 2. second item
 3. third item
@@ -32,9 +37,10 @@ The list items can be numbered:
 
 Images can be added almost like links, just add an exclamation mark!
 
-![alt text](/path/to/image.png)
+![](/uploads/odonfack.png)
 
 ### Code blocks
+
 ```python
 def hello(name):
     print(f"Hello {name}")

@@ -6,13 +6,18 @@ webhook_url:
 sections:
 - type: directory
   path: content
+  label: my-blog-content
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
   label: Pages
   create: all
   match: "*"
-upload_dir: static/uploads
+upload_dir: static/images
 public_path: "/uploads"
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_env:
