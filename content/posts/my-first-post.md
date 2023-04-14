@@ -7,7 +7,7 @@ tags:
 - development
 - hugo
 - blogging
-featured_image: images/avatar.jpg
+featuredImage: "/images/blog/programmer_450_312.png"
 
 ---
 This is my first blog post about DevOps
@@ -37,7 +37,7 @@ The list items can be numbered:
 
 Images can be added almost like links, just add an exclamation mark!
 
-![](/uploads/odonfack.png)
+![](/images/blog/odonfack.png)
 
 ### Code blocks
 
